@@ -131,7 +131,8 @@ $(".triple-dot.files-item").on("click", function () {
   });
 
   $("#delete").on("click", function () {
-    $("#delete_file_id").val(id);
+    $("#delete_id").val(id);
+    $("#delete_type").val(type);
   });
 });
 
